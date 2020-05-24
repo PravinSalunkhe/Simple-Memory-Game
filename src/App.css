@@ -1,0 +1,30 @@
+#m {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.card {
+  background: #fff;
+  border: 5px solid #fff;
+  border-radius: 2px;
+  margin: 40px 20px;
+  position: relative;
+  height: 300px;
+  width: 250px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  transition: box-shadow 0.1s ease-in-out;
+  text-align: left;
+}
+.card>.img-container {
+  height: 80%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card>.img-container>img {
+  width: 80%
+}
+.card>.img-content>ul {
+  list-style-type: none;
+}
